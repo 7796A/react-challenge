@@ -1,0 +1,119 @@
+#heading{
+    text-align: center;
+    margin-left: 1%;
+}
+
+form{
+    display: flex;
+    height: 12rem;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(244,244,244,1) 2%, rgba(15,156,157,0.9724264705882353) 50%);;
+}
+
+form label{
+    margin-right: -38%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 770px){
+    form label{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    form label{
+        font-size: 1.5rem;
+    }
+}
+
+form #dog_breed{
+    margin-left: 17%;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 770px){
+    form #dog_breed{
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    form #dog_breed{
+        margin-right: 4%;
+        margin-left: -3%;
+        font-size: 1rem;
+    }
+}
+
+form #get_btn{
+    margin-left: -16%;
+    margin-right: 2%;
+    font-size: 1.5rem;
+    padding: 8px;
+    background-color: white;
+    color: rgb(67, 170, 211);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 770px){
+    form #get_btn{
+        margin-right: 5%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    form #get_btn{
+        margin-right: 2%;
+        font-size: 1rem;
+    }
+}
+
+#display{
+    margin: 0% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border: 1px solid black;
+     background-color:#041843;
+}
+
+#display img{
+    margin: 5%;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ccc;
+    /* background-color: red; */
+    height: 25rem;
+    width: 40rem;
+    background-attachment: fixed;
+
+}
+
+@media screen and (max-width: 770px){
+    #display img{
+        margin: 5% 5% 5% 15%;
+    }   
+}
+
+@media screen and (max-width: 550px){
+    #display img{
+        margin: 5% 5% 5% -7%;
+    }   
+}
+
+#display #next_btn{
+    margin-right: 20%;
+    font-size: 2rem;
+    padding: 20px;
+    background-color: white;
+    color: rgb(67, 170, 211);
+    border: lightgrey 2px solid;
+     border-radius: 20px
+}
